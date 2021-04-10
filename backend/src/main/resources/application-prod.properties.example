@@ -1,0 +1,18 @@
+## Datasource
+spring.datasource.url=jdbc:postgresql://localhost:5432/tutordb
+spring.datasource.username= siroofington
+spring.datasource.password= yourhehepassword
+
+## Jpa
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQL9Dialect
+
+## Resources
+figures.dir=<DIRECTORY_WITH_FIGURES>
+export.dir=<DIRECTORY_TO_EXPORT>
+load.dir=<DIRECTORY_FOR_LOAD>
+
+## Fenix oauth
+oauth.consumer.key=570015174623381
+oauth.consumer.secret=neMz7DAZvV75ENO1RtVW7zc8xj5imaGmZroxReJEDOZ11FWqTA6vdWmyWO9t9tE+KhUyJC2vT9xUYzuT5DXvWQ==
+callback.url=<URL FENIX REDIRECTS TO>
+base.url=https://fenix.tecnico.ulisboa.pt
